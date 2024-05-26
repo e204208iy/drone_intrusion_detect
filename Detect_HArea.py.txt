@@ -1,0 +1,3 @@
+from ultralytics.solutions import object_counterの180行目で人が領域に入ったことを検知している。
+リストのself.in_polygonの中にTrueが入っている場合CV2でテキストをputするようにしている。
+領域の設定をいじる場合はfrom ultralytics.utils.plotting import Annotatorのdraw_regionメソッドをいじる。
